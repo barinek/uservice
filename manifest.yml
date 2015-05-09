@@ -1,0 +1,10 @@
+---
+applications:
+- name: uservice
+  memory: 1024M
+  instances: 1
+  host: uservice
+  domain: cfapps.io
+  services:
+  - redis-cloud
+  - mysql
